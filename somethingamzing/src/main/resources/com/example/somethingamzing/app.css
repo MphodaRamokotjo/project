@@ -1,0 +1,70 @@
+
+Label{
+       -fx-text-fill:white;
+       -fx-font-size:30px;
+       -fx-font-weight:bold;
+       -fx-text-decoration:underline;
+       -fx-padding:20px 310px;
+}
+.button{
+    -fx-background-color:yellow;
+    -fx-color:white;
+    -fx-width:130px;
+    -fx-height:42px;
+    -fx-opacity:0.7;
+    -fx-background-radius:20px;
+}
+#btn1,#btn2
+{
+        -fx-background-color:yellow;
+        -fx-color:white;
+        -fx-width:330px;
+        -fx-height:42px;
+        -fx-padding:10px;
+        -fx-background-radius:20px;
+        }
+HBox{
+    -fx-padding:20px 100px ;
+    -fx-border-width:2px;
+    -fx-width:3px;
+    -fx-border-radius:20px;
+
+}
+#pp{
+    -fx-background-color:black;
+    -fx-border-width:2px;
+    -fx-border-color:red;
+    -fx-width:5000px;
+    -fx-height:5000px;
+}
+VBox
+{
+    -fx-padding:0px 100px ;
+}
+
+BorderPane{
+    -fx-background-color:linear-gradient(to bottom right, brown,black);
+    -fx-border-radius:50%;
+    -fx-height:1000px;
+    -fx-weight:1000px;
+
+}
+#really:hover{
+    -fx-height:300px;
+    -fx-weight:300px;
+    -fx-cursor:pointer;
+}
+Line {
+    -fx-padding:100px 400px;
+
+
+}
+.btn:: hover{
+    -fx-opacity:0.1;
+}
+.image-view:hover
+{
+          -fx-border-color:red;
+          -fx-scale-x:1.05;
+          -fx-scale-y:1.05;
+}
